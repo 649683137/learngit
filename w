@@ -1,0 +1,124 @@
+[1mdiff --git a/h.txt b/h.txt[m
+[1mindex d8036c1..1e02890 100644[m
+[1m--- a/h.txt[m
+[1m+++ b/h.txt[m
+[36m@@ -1,2 +1,115 @@[m
+[31m-Git is a version control system.[m
+[31m-Git is free software.[m
+\ No newline at end of file[m
+[32m+[m[32mGit is a distributed version control system.[m
+[32m+[m[32mGit is free software.[m
+[32m+[m[32m"phantomjs-prebuilt": {[m
+[32m+[m[32m      "version": "2.1.16",[m
+[32m+[m[32m      "resolved": "http://registry.npm.taobao.org/phantomjs-prebuilt/download/phantomjs-prebuilt-2.1.16.tgz",[m
+[32m+[m[32m      "integrity": "sha1-79ISpKOWbTZHaE6ouniFSb4q7+8=",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "es6-promise": "^4.0.3",[m
+[32m+[m[32m        "extract-zip": "^1.6.5",[m
+[32m+[m[32m        "fs-extra": "^1.0.0",[m
+[32m+[m[32m        "hasha": "^2.2.0",[m
+[32m+[m[32m        "kew": "^0.7.0",[m
+[32m+[m[32m        "progress": "^1.1.8",[m
+[32m+[m[32m        "request": "^2.81.0",[m
+[32m+[m[32m        "request-progress": "^2.0.1",[m
+[32m+[m[32m        "which": "^1.2.10"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "mime-db": {[m
+[32m+[m[32m          "version": "1.40.0",[m
+[32m+[m[32m          "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.40.0.tgz",[m
+[32m+[m[32m          "integrity": "sha512-jYdeOMPy9vnxEqFRRo6ZvTZ8d9oPb+k18PKoYNYUe2stVEBPPwsln/qWzdbmaIvnhZ9v2P+CuecK+fpUfsV2mA==",[m
+[32m+[m[32m          "dev": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "request": {[m
+[32m+[m[32m          "version": "2.88.0",[m
+[32m+[m[32m          "resolved": "https://registry.npmjs.org/request/-/request-2.88.0.tgz",[m
+[32m+[m[32m          "integrity": "sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==",[m
+[32m+[m[32m          "dev": true,[m
+[32m+[m[32m          "requires": {[m
+[32m+[m[32m            "aws-sign2": "~0.7.0",[m
+[32m+[m[32m            "aws4": "^1.8.0",[m
+[32m+[m[32m            "caseless": "~0.12.0",[m
+[32m+[m[32m            "combined-stream": "~1.0.6",[m
+[32m+[m[32m            "extend": "~3.0.2",[m
+[32m+[m[32m            "forever-agent": "~0.6.1",[m
+[32m+[m[32m            "form-data": "~2.3.2",[m
+[32m+[m[32m            "har-validator": "~5.1.0",[m
+[32m+[m[32m            "http-signature": "~1.2.0",[m
+[32m+[m[32m            "is-typedarray": "~1.0.0",[m
+[32m+[m[32m            "isstream": "~0.1.2",[m
+[32m+[m[32m            "json-stringify-safe": "~5.0.1",[m
+[32m+[m[32m            "mime-types": "~2.1.19",[m
+[32m+[m[32m            "oauth-sign": "~0.9.0",[m
+[32m+[m[32m            "performance-now": "^2.1.0",[m
+[32m+[m[32m            "qs": "~6.5.2",[m
+[32m+[m[32m            "safe-buffer": "^5.1.2",[m
+[32m+[m[32m            "tough-cookie": "~2.4.3",[m
+[32m+[m[32m            "tunnel-agent": "^0.6.0",[m
+[32m+[m[32m            "uuid": "^3.3.2"[m
+[32m+[m[32m          },[m
+[32m+[m[32m          "dependencies": {[m
+[32m+[m[32m            "aws4": {[m
+[32m+[m[32m              "version": "1.8.0",[m
+[32m+[m[32m              "resolved": "https://registry.npmjs.org/aws4/-/aws4-1.8.0.tgz",[m
+[32m+[m[32m              "integrity": "sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==",[m
+[32m+[m[32m              "dev": true[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "combined-stream": {[m
+[32m+[m[32m              "version": "1.0.8",[m
+[32m+[m[32m              "resolved": "https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz",[m
+[32m+[m[32m              "integrity": "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==",[m
+[32m+[m[32m              "dev": true,[m
+[32m+[m[32m              "requires": {[m
+[32m+[m[32m                "delayed-stream": "~1.0.0"[m
+[32m+[m[32m              }[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "extend": {[m
+[32m+[m[32m              "version": "3.0.2",[m
+[32m+[m[32m              "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",[m
+[32m+[m[32m              "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==",[m
+[32m+[m[32m              "dev": true[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "mime-types": {[m
+[32m+[m[32m              "version": "2.1.24",[m
+[32m+[m[32m              "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.24.tgz",[m
+[32m+[m[32m              "integrity": "sha512-WaFHS3MCl5fapm3oLxU4eYDw77IQM2ACcxQ9RIxfaC3ooc6PFuBMGZZsYpvoXS5D5QTWPieo1jjLdAm3TBP3cQ==",[m
+[32m+[m[32m              "dev": true,[m
+[32m+[m[32m              "requires": {[m
+[32m+[m[32m                "mime-db": "1.40.0"[m
+[32m+[m[32m              }[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "oauth-sign": {[m
+[32m+[m[32m              "version": "0.9.0",[m
+[32m+[m[32m              "resolved": "https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz",[m
+[32m+[m[32m              "integrity": "sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==",[m
+[32m+[m[32m              "dev": true[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "safe-buffer": {[m
+[32m+[m[32m              "version": "5.1.2",[m
+[32m+[m[32m              "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",[m
+[32m+[m[32m              "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==",[m
+[32m+[m[32m              "dev": true[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "tough-cookie": {[m
+[32m+[m[32m              "version": "2.4.3",[m
+[32m+[m[32m              "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz",[m
+[32m+[m[32m              "integrity": "sha512-Q5srk/4vDM54WJsJio3XNn6K2sCG+CQ8G5Wz6bZhRZoAe/+TxjWB/GlFAnYEbkYVlON9FMk/fE3h2RLpPXo4lQ==",[m
+[32m+[m[32m              "dev": true,[m
+[32m+[m[32m              "requires": {[m
+[32m+[m[32m                "psl": "^1.1.24",[m
+[32m+[m[32m                "punycode": "^1.4.1"[m
+[32m+[m[32m              }[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "uuid": {[m
+[32m+[m[32m              "version": "3.3.2",[m
+[32m+[m[32m              "resolved": "https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz",[m
+[32m+[m[32m              "integrity": "sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==",[m
+[32m+[m[32m              "dev": true[m
+[32m+[m[32m            }[m
+[32m+[m[32m          }[m
+[32m+[m[32m        }[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+\ No newline at end of file[m
